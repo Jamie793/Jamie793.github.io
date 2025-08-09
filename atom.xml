@@ -72,35 +72,6 @@
   </entry>
   
   <entry>
-    <title>反激式开关电源分析</title>
-    <link href="https://blog.jamiexu.cn/2024/04/14/%E3%80%90%E5%BC%80%E5%85%B3%E7%94%B5%E6%BA%90%E3%80%91%E5%8F%8D%E6%BF%80%E5%BC%8F%E5%BC%80%E5%85%B3%E7%94%B5%E6%BA%90%E5%8E%9F%E7%90%86%E5%9B%BE%E5%88%86%E6%9E%90/"/>
-    <id>https://blog.jamiexu.cn/2024/04/14/%E3%80%90%E5%BC%80%E5%85%B3%E7%94%B5%E6%BA%90%E3%80%91%E5%8F%8D%E6%BF%80%E5%BC%8F%E5%BC%80%E5%85%B3%E7%94%B5%E6%BA%90%E5%8E%9F%E7%90%86%E5%9B%BE%E5%88%86%E6%9E%90/</id>
-    <published>2024-04-14T03:54:00.000Z</published>
-    <updated>2024-04-14T04:54:52.554Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="原理图"><a href="#原理图" class="headerlink" title="原理图"></a>原理图</h3><p>![[20240414-1-2.png]]</p><h3 id="各部分电路分析"><a href="#各部分电路分析" class="headerlink" title="各部分电路分析"></a>各部分电路分析</h3><h4 id="整流电路"><a href="#整流电路" class="headerlink" title="整流电路"></a>整流电路</h4><ul><li>首先市电经过J1进来，经过F1保险丝后经C6滤波。RT1为热敏电阻，过温保护。</li><li>共模电感L2抑制共模信号。全波整流桥RS805将交流电负半周整流到正半周。</li></ul><h4 id="滤波电路"><a href="#滤波电路" class="headerlink" title="滤波电路"></a>滤波电路</h4><ul><li>电感L3，C13，C1构成滤波网络，使波形更平滑</li><li></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;原理图&quot;&gt;&lt;a href=&quot;#原理图&quot; class=&quot;headerlink&quot; title=&quot;原理图&quot;&gt;&lt;/a&gt;原理图&lt;/h3&gt;&lt;p&gt;![[20240414-1-2.png]]&lt;/p&gt;
-&lt;h3 id=&quot;各部分电路分析&quot;&gt;&lt;a href=&quot;#各部分电路分析&quot; clas</summary>
-      
-    
-    
-    
-    <category term="[[&quot;硬件基础&quot;,&quot;原理图&quot;]]" scheme="https://blog.jamiexu.cn/categories/%E7%A1%AC%E4%BB%B6%E5%9F%BA%E7%A1%80-%E5%8E%9F%E7%90%86%E5%9B%BE/"/>
-    
-    
-    <category term="开关电源" scheme="https://blog.jamiexu.cn/tags/%E5%BC%80%E5%85%B3%E7%94%B5%E6%BA%90/"/>
-    
-    <category term="原理图分析" scheme="https://blog.jamiexu.cn/tags/%E5%8E%9F%E7%90%86%E5%9B%BE%E5%88%86%E6%9E%90/"/>
-    
-    <category term="硬件" scheme="https://blog.jamiexu.cn/tags/%E7%A1%AC%E4%BB%B6/"/>
-    
-  </entry>
-  
-  <entry>
     <title>【RTOS&amp;FreeRTOS&amp;嵌入式】基于STM32 的FreeRTOS内核剖析</title>
     <link href="https://blog.jamiexu.cn/2023/09/03/%E3%80%90RTOS&amp;FreeRTOS&amp;%E5%B5%8C%E5%85%A5%E5%BC%8F%E3%80%91%E5%9F%BA%E4%BA%8ESTM32%20%E7%9A%84FreeRTOS%E5%86%85%E6%A0%B8%E5%89%96%E6%9E%90/"/>
     <id>https://blog.jamiexu.cn/2023/09/03/%E3%80%90RTOS&amp;FreeRTOS&amp;%E5%B5%8C%E5%85%A5%E5%BC%8F%E3%80%91%E5%9F%BA%E4%BA%8ESTM32%20%E7%9A%84FreeRTOS%E5%86%85%E6%A0%B8%E5%89%96%E6%9E%90/</id>
@@ -592,6 +563,30 @@
     <category term="内存补丁" scheme="https://blog.jamiexu.cn/tags/%E5%86%85%E5%AD%98%E8%A1%A5%E4%B8%81/"/>
     
     <category term="补丁" scheme="https://blog.jamiexu.cn/tags/%E8%A1%A5%E4%B8%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>VS Code下LaTeX的配置</title>
+    <link href="https://blog.jamiexu.cn/2021/07/07/vs-code%E4%B8%8Blatex%E7%9A%84%E9%85%8D%E7%BD%AE/"/>
+    <id>https://blog.jamiexu.cn/2021/07/07/vs-code%E4%B8%8Blatex%E7%9A%84%E9%85%8D%E7%BD%AE/</id>
+    <published>2021-07-07T11:49:52.000Z</published>
+    <updated>2022-07-29T06:12:09.031Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="MikTex安装"><a href="#MikTex安装" class="headerlink" title="MikTex安装"></a>MikTex安装</h2><p>官网下载MikTex: <a href="https://miktex.org/">https://miktex.org/</a> 的安装包，然后点击安装。安装完成有运行”Miktex console”进行配置(选择”以管理员身份运行”)。</p><p>点击”Packages”标签，然后依次安装ctex和CJK包等(或者<strong>待编译时再按需安装也可</strong>)， 以便支持中文。</p><p><img src="https://s2.loli.net/2022/07/29/6KDRjISnlTMEVAN.png"></p><p><img src="https://s2.loli.net/2022/07/29/ZsUVG5KkgSwL7Hu.png"></p><h2 id="VS-code-LaTeX-Workshop"><a href="#VS-code-LaTeX-Workshop" class="headerlink" title="VS code+LaTeX Workshop"></a>VS code+LaTeX Workshop</h2><p>官网下载VSCode安装包然后安装。<a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a></p><p>然后运行”vscode”, 安装其扩展Latex Workshop.</p><p>对于Miktex, 需要对Latex Workshop配置<strong>recipe</strong>和<strong>tool</strong>。</p><p><img src="https://s2.loli.net/2022/07/29/X7yTWuiYCpj9VqN.jpg"></p><h3 id="tool"><a href="#tool" class="headerlink" title="tool"></a>tool</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">&quot;latex-workshop.latex.tools&quot;: [</span><br><span class="line">        &#123;</span><br><span class="line">            // 编译工具和命令</span><br><span class="line">            &quot;name&quot;: &quot;xelatex&quot;,</span><br><span class="line">            &quot;command&quot;: &quot;xelatex&quot;,</span><br><span class="line">            &quot;args&quot;: [</span><br><span class="line">                &quot;-synctex=1&quot;,</span><br><span class="line">                &quot;-interaction=nonstopmode&quot;,</span><br><span class="line">                &quot;-file-line-error&quot;,</span><br><span class="line">                &quot;-pdf&quot;,</span><br><span class="line">                &quot;%DOCFILE%&quot;</span><br><span class="line">            ]</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">            &quot;name&quot;: &quot;pdflatex&quot;,</span><br><span class="line">            &quot;command&quot;: &quot;pdflatex&quot;,</span><br><span class="line">            &quot;args&quot;: [</span><br><span class="line">                &quot;-synctex=1&quot;,</span><br><span class="line">                &quot;-interaction=nonstopmode&quot;,</span><br><span class="line">                &quot;-file-line-error&quot;,</span><br><span class="line">                &quot;%DOCFILE%&quot;</span><br><span class="line">            ]</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">            &quot;name&quot;: &quot;bibtex&quot;,</span><br><span class="line">            &quot;command&quot;: &quot;bibtex&quot;,</span><br><span class="line">            &quot;args&quot;: [</span><br><span class="line">                &quot;%DOCFILE%&quot;</span><br><span class="line">            ]</span><br><span class="line">        &#125;</span><br><span class="line">    ], </span><br></pre></td></tr></table></figure><h3 id="recipe"><a href="#recipe" class="headerlink" title="recipe"></a>recipe</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">&quot;latex-workshop.latex.recipes&quot;: [</span><br><span class="line">        </span><br><span class="line">        </span><br><span class="line">        &#123;</span><br><span class="line">          &quot;name&quot;: &quot;pdflatex&quot;,</span><br><span class="line">          &quot;tools&quot;: [</span><br><span class="line">          &quot;pdflatex&quot;</span><br><span class="line">                    ]</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">            &quot;name&quot;: &quot;pdflatex -&gt; bibtex -&gt; pdflatex*2&quot;,</span><br><span class="line">            &quot;tools&quot;: [</span><br><span class="line">            &quot;pdflatex&quot;,</span><br><span class="line">            &quot;bibtex&quot;,</span><br><span class="line">            &quot;pdflatex&quot;,</span><br><span class="line">            &quot;pdflatex&quot;</span><br><span class="line">                      ]</span><br><span class="line">          &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">            &quot;name&quot;: &quot;xelatex&quot;,</span><br><span class="line">            &quot;tools&quot;: [</span><br><span class="line">            &quot;xelatex&quot;</span><br><span class="line">                      ]</span><br><span class="line">                  &#125;,</span><br><span class="line">        </span><br><span class="line">        </span><br><span class="line">      ], </span><br></pre></td></tr></table></figure><p><img src="https://s2.loli.net/2022/07/29/bBRspvOqikCahlz.png"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;MikTex安装&quot;&gt;&lt;a href=&quot;#MikTex安装&quot; class=&quot;headerlink&quot; title=&quot;MikTex安装&quot;&gt;&lt;/a&gt;MikTex安装&lt;/h2&gt;&lt;p&gt;官网下载MikTex: &lt;a href=&quot;https://miktex.org/&quot;&gt;http</summary>
+      
+    
+    
+    
+    <category term="其他" scheme="https://blog.jamiexu.cn/categories/%E5%85%B6%E4%BB%96/"/>
+    
+    <category term="软件配置" scheme="https://blog.jamiexu.cn/categories/%E5%85%B6%E4%BB%96/%E8%BD%AF%E4%BB%B6%E9%85%8D%E7%BD%AE/"/>
+    
     
   </entry>
   
