@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.jamiexu.cn/friends/index.html</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.jamiexu.cn/2024/12/26/Untitled/</loc>
     
     <lastmod>2025-01-09</lastmod>
@@ -41,15 +50,6 @@
     <loc>https://blog.jamiexu.cn/2023/04/20/%E3%80%90STM32&I2C(IIC)&ROM&RAM&Proteus%E3%80%91IIC%E5%8D%8F%E8%AE%AE%E5%92%8C%E5%AD%98%E5%82%A8%E5%99%A8%E7%9A%84%E4%BB%8B%E7%BB%8D%E5%8F%8A%E5%9F%BA%E4%BA%8ESTM32%E7%9A%84Proteus%E4%B8%8BI2C%E4%BB%BF%E7%9C%9F/</loc>
     
     <lastmod>2023-04-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.jamiexu.cn/friends/index.html</loc>
-    
-    <lastmod>2022-11-28</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -776,6 +776,13 @@
   </url>
   
   <url>
+    <loc>https://blog.jamiexu.cn/tags/Git/</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.jamiexu.cn/tags/MCU51/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -797,14 +804,14 @@
   </url>
   
   <url>
-    <loc>https://blog.jamiexu.cn/tags/Git/</loc>
+    <loc>https://blog.jamiexu.cn/tags/STM32/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.jamiexu.cn/tags/STM32/</loc>
+    <loc>https://blog.jamiexu.cn/tags/Proteus/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -819,13 +826,6 @@
   
   <url>
     <loc>https://blog.jamiexu.cn/tags/bug/</loc>
-    <lastmod>2025-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.jamiexu.cn/tags/Proteus/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1142,14 +1142,14 @@
   </url>
   
   <url>
-    <loc>https://blog.jamiexu.cn/categories/%E5%85%B6%E4%BB%96/%E8%BD%AF%E4%BB%B6%E9%85%8D%E7%BD%AE/</loc>
+    <loc>https://blog.jamiexu.cn/categories/%E9%80%86%E5%90%91%E5%88%86%E6%9E%90/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.jamiexu.cn/categories/%E9%80%86%E5%90%91%E5%88%86%E6%9E%90/</loc>
+    <loc>https://blog.jamiexu.cn/categories/%E5%85%B6%E4%BB%96/%E8%BD%AF%E4%BB%B6%E9%85%8D%E7%BD%AE/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
